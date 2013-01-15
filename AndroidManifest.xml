@@ -31,7 +31,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>        
+        </activity>
         <activity
             android:name=".Splash"
             android:label="@string/app_name" >
@@ -58,6 +58,10 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".JSONTwitter"
+            android:label="JSONTwitter" >
         </activity>
         <activity
             android:name=".Menu"
@@ -117,16 +121,19 @@
             android:name=".OpenedClass"
             android:label="@string/app_name" >
         </activity>
-		        <activity
-            android:label="SQLiteExample" android:name=".SQLiteExample" >
+        <activity
+            android:name=".SQLiteExample"
+            android:label="SQLiteExample" >
         </activity>
         <activity
-            android:label="@string/app_name" android:name=".SQLView" >
-            <intent-filter >
-                <action android:name="com.ambarishkarole.SQLVIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+            android:name=".SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.ambarishkarole.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>		
+        </activity>
         <activity
             android:name=".Data"
             android:label="@string/app_name" >

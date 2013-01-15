@@ -13,7 +13,7 @@ import android.widget.ListView;
 
 public class Menu extends ListActivity {
 
-	String[] classes = { "DerezzedDiamonds","TickleGorilla", "Camera","GFXSurface","SQLiteExample" };// same
+	String[] classes = { "DerezzedDiamonds","TickleGorilla", "Camera","GFXSurface","SQLiteExample","JSONTwitter" };// same
 																					// name
 																					// as
 																					// other
